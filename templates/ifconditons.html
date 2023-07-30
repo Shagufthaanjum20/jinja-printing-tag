@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--   <center>
+        <h1>
+            if-else condition</h1>
+        {% if a > b %}
+            <h1> if block</h1>
+            <h1>if condition executed value of a is {{a}}  </h1>
+        {% else %}    
+                <h1>else block</h1>
+                <h1>else cond will be executed {{b}}  </h1>
+            {% endif %}
+    </center>--->
+<!----<center>
+        <h1>if-elif conditions</h1>
+        {%  if a > b and a > c %}
+                 <h1> if block </h1>
+                <h1>if block will be executed value of a is {{a}}</h1>
+        {% elif b > c %}
+                <h1> elif block</h1>
+                <h1>elif block will be executed value of b is {{b}}</h1>
+        {% else %}    
+                <h1>else block</h1>
+                <h1>else block will be executed value of c is {{c}}</h1>
+        {% endif %}    
+    </center>---->
+   <center>
+        <h1>if-else -elif condition</h1>
+        {% if a > b %}
+            {% if a > c %}
+             <h1> a is highest value{{a}}</h1>
+            {% else %}
+             <h1>  b is highest value of c {{c}}</h1>
+            {% endif %}
+        {% else %}
+            {% if b > c %}  
+           <h1>if condition is executed value b of  is{{b}}</h1>   
+            {% else %}
+         <h1>is else block executed value of c is {{c}}</h1>
+            {% endif %}
+        {% endif %}
+   </center>
+
+</body>
+</html>

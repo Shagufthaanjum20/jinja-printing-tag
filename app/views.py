@@ -7,5 +7,5 @@ def data_render(request):
 
 
 def if_condition(request):
-    d={'a':10,'b':2000,'c':250}
-    return render(request,'ifconditons.html',context=d)    
+    d={'a':10,'b':2000,'c':250,'hobbies':['dancing','sleeping','eating','listening stories','mostly watching zain immam']}
+    return render(request,'if_conditions.html',context=d)    

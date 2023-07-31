@@ -47,5 +47,14 @@
         {% endif %}
    </center>
 
+   <center>
+    <h1> hobbies are </h1>
+    {% for h in hobbies %}
+      <h1>{{h}}</h1>
+    {% endfor %} 
+    <h1><a href="{% url 'data_render' %}"> click here to navigating into from one html page into another html page</a></h1>
+
+   </center>
+
 </body>
 </html>
